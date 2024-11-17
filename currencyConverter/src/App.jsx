@@ -26,14 +26,14 @@ function App() {
 
   return (
     <div
-        className="w-full h-screen flex flex-wrap justify-between items-center">
-        <div className="w-1/2 h-screen bg-cover bg-no-repeat" style={{
+        className="w-full h-screen flex flex-wrap justify-center lg:justify-between items-center">
+        <div className="w-1/2 h-screen bg-cover bg-no-repeat hidden lg:block" style={{
             backgroundImage: `url(${'https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=600'})`,
         }}>
 
         </div>
 
-        <div className="w-1/2 bg-black h-screen flex items-center justify-center">
+        <div className="w-full lg:w-1/2 bg-black h-screen flex items-center justify-center">
             <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                 <form
                     onSubmit={(e) => {
